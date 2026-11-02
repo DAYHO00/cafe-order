@@ -1,5 +1,13 @@
 public class OrderCalculator {
     public static int calculate(int price, int quantity) {
-        return 0;
+
+        if (quantity <= 0) {
+            return 0;
+        }
+
+        int totalPrice = price * quantity;
+
+        return totalPrice;
+    
     }
 }
