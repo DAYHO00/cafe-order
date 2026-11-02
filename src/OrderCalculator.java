@@ -8,5 +8,6 @@ public class OrderCalculator {
         int totalPrice = price * quantity;
 
         return totalPrice;
+    
     }
 }
